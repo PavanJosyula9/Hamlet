@@ -4,3 +4,5 @@ Synopsis:
 On the guards' platform at Elsinore, Horatio waits with Barnardo and Marcellus to question a ghost that has twice before appeared. The Ghost, in the form of the late King Hamlet of Denmark, appears but will not speak. Horatio decides to tell his fellow student, Prince Hamlet, about the Ghost's appearance. 
 
 Enter Bernardo and Francisco, two sentinels. 
+
+Hello World!
