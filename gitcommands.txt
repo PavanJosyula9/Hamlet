@@ -1,0 +1,117 @@
+Here's a complete list of the **most commonly used Git commands**, grouped by purpose, with simple descriptions:
+
+---
+
+## ✅ **Basic Setup**
+
+| Command                                            | Description                        |
+| -------------------------------------------------- | ---------------------------------- |
+| `git config --global user.name "Your Name"`        | Set your Git username              |
+| `git config --global user.email "you@example.com"` | Set your Git email                 |
+| `git config --global core.editor code`             | Set VS Code as your default editor |
+| `git config --list`                                | Show all Git config settings       |
+
+---
+
+## ✅ **Repository Initialization**
+
+| Command                | Description                                    |
+| ---------------------- | ---------------------------------------------- |
+| `git init`             | Initialize a new Git repository in your folder |
+| `git clone <repo_url>` | Clone a remote repository                      |
+
+---
+
+## ✅ **Staging & Committing**
+
+| Command                   | Description                   |
+| ------------------------- | ----------------------------- |
+| `git status`              | Show changed files            |
+| `git add .`               | Stage all changes             |
+| `git add <file>`          | Stage a specific file         |
+| `git reset <file>`        | Unstage a specific file       |
+| `git commit -m "message"` | Commit changes with a message |
+
+---
+
+## ✅ **Branches**
+
+| Command                  | Description                       |
+| ------------------------ | --------------------------------- |
+| `git branch`             | List all branches                 |
+| `git branch <name>`      | Create a new branch               |
+| `git checkout <name>`    | Switch to a branch                |
+| `git checkout -b <name>` | Create and switch to a branch     |
+| `git merge <branch>`     | Merge another branch into current |
+| `git branch -d <name>`   | Delete a branch                   |
+
+---
+
+## ✅ **Remote Repositories**
+
+| Command                       | Description                            |
+| ----------------------------- | -------------------------------------- |
+| `git remote -v`               | Show remote URLs                       |
+| `git remote add origin <url>` | Add a remote repository                |
+| `git push -u origin main`     | Push local repo to GitHub (first time) |
+| `git push`                    | Push changes                           |
+| `git pull`                    | Pull latest changes                    |
+| `git fetch`                   | Get latest changes without merging     |
+
+---
+
+## ✅ **Viewing History**
+
+| Command             | Description              |
+| ------------------- | ------------------------ |
+| `git log`           | View commit history      |
+| `git log --oneline` | View simplified history  |
+| `git show <commit>` | Show changes in a commit |
+| `git diff`          | Show unstaged changes    |
+| `git diff --staged` | Show staged changes      |
+
+---
+
+## ✅ **Undoing Changes**
+
+| Command                   | Description                           |
+| ------------------------- | ------------------------------------- |
+| `git checkout -- <file>`  | Undo changes in a file                |
+| `git reset HEAD <file>`   | Unstage a file                        |
+| `git reset --soft HEAD~1` | Undo last commit, keep changes staged |
+| `git reset --hard HEAD~1` | Undo last commit and discard changes  |
+
+---
+
+## ✅ **Stash (Temporary Save)**
+
+| Command          | Description                 |
+| ---------------- | --------------------------- |
+| `git stash`      | Save uncommitted changes    |
+| `git stash pop`  | Reapply the stashed changes |
+| `git stash list` | Show stashed entries        |
+| `git stash drop` | Delete latest stash         |
+
+---
+
+## ✅ **Tagging**
+
+| Command                     | Description        |
+| --------------------------- | ------------------ |
+| `git tag`                   | List all tags      |
+| `git tag <tagname>`         | Create a new tag   |
+| `git push origin <tagname>` | Push tag to remote |
+
+---
+
+## ✅ **Working with GitHub**
+
+| Command                       | Description                       |
+| ----------------------------- | --------------------------------- |
+| `gh auth login`               | Login to GitHub using CLI         |
+| `gh repo create`              | Create a new GitHub repo from CLI |
+| `gh repo clone <user>/<repo>` | Clone using GitHub CLI            |
+
+---
+
+Would you like a printable cheat sheet or a PDF version of this?
